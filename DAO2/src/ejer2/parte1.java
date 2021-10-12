@@ -14,7 +14,7 @@ public class parte1 {
 		FileInputStream fis = null;
 	    Properties prop = null;
 	    try {
-	    	fis = new FileInputStream("C:\\Users\\piotr\\eclipse-workspace\\Actividad2\\src\\info-configuracion.properties");
+	    	fis = new FileInputStream("C:\\Users\\piotr\\git\\Practica1\\DAO2\\src\\info-configuracion.properties");
 	        prop = new Properties();
 	        prop.load(fis);
 	    } catch(FileNotFoundException fnfe) {
